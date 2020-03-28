@@ -16,3 +16,24 @@ git add . is read as git | add | ., where the period represents everything in th
 git commit -m "message" is read as git | commit -m | "message"; and
 
 git status is read as git | status | (no destination).
+
+Git init = creates a local repository
+
+git clone /path/to/repository = creates a working copy from a local repository
+
+git clone username@host:/path/to/repository = creates a copy from a remote server
+
+git add <filename> = adds file to staging area
+git add . = adds all files to staging area
+
+git commit = commits the staging area to the live version
+
+git push origin master = pushes live version to online repository
+
+git status = shows you what files are in staging and what is to be added
+
+git pull = pulls from the online repository
+
+git merge <branchname> = merges branch into your active branch
+
+git checkout -- <filename> = does something
